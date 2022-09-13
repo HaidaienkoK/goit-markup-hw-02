@@ -1,0 +1,208 @@
+:root {
+    --main-bg-color: #ffffff;
+    --main-color: #212121;
+    --main-focus: #2196f3;
+    --secondery-bg-color: #eeeeee;
+    --secondery-color: #757575;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    border: 0;
+    margin: 0;
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-color {
+    color: var(--main-focus);
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+.menu-item:hover,
+.menu-item:focus,
+.contact-item:hover,
+.contact-item:focus {
+    color: var(--main-focus);
+}
+
+.contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.contact-item {
+    color: var(--secondery-color);
+}
+
+.main {
+    background-color: #000000;
+}
+
+.main-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--main-focus);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.point-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.point-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--secondery-color);
+}
+
+.work-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.team {}
+
+.team-card {
+    text-align: center;
+}
+
+.card-img {}
+
+.card-title,
+.card-position {
+    font-size: 16px;
+    line-height: 19px;
+
+    letter-spacing: 0.03em;
+}
+
+.card-title {
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.card-position {
+    font-weight: 400;
+    color: var(--secondery-color);
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.footer-map {
+    color: #ffffff;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.button-item {
+}
+
+
+
+.button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: 0;
+    background-color: #F5F4FA;
+}
+
+.button-text:hover,
+.button-text:focus {
+    background-color: var(--main-focus);
+    color: #ffffff;
+}
+
+.portfolio-card {
+    text-align: center;
+}
+
+.portfolio-card-img {}
+
+.portfolio-card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.portfolio-card-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--secondery-color);
+}
