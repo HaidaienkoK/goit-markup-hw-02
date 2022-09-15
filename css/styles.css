@@ -2,6 +2,7 @@
     --main-bg-color: #ffffff;
     --main-color: #212121;
     --main-focus: #2196f3;
+    --secondery-color-text: #ffffff;
     --secondery-bg-color: #eeeeee;
     --secondery-color: #757575;
 }
@@ -30,7 +31,6 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    cursor: pointer;
     text-decoration: none;
     color: #000000;
 }
@@ -44,7 +44,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    cursor: pointer;
 }
 
 .menu-list .menu-link {
@@ -83,17 +82,17 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--secondery-color-text);
 }
 
-.order {
+.order-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
     background-color: var(--main-focus);
-    color: #ffffff;
+    color: var(--secondery-color-text);
     cursor: pointer;
 }
 
@@ -107,7 +106,6 @@ body {
 }
 
 .point-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -136,7 +134,6 @@ body {
 }
 
 .card-position {
-    font-weight: 400;
     color: var(--secondery-color);
 }
 
@@ -149,14 +146,13 @@ body {
 }
 
 .footer-address {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
 .footer-map {
-    color: #ffffff;
+    color: var(--secondery-color-text);
 }
 
 .footer-link {
@@ -169,14 +165,14 @@ body {
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    border: 0;
     background-color: #f5f4fa;
+    cursor: pointer;
 }
 
 .button-text:hover,
 .button-text:focus {
     background-color: var(--main-focus);
-    color: #ffffff;
+    color: var(--secondery-color-text);
 }
 
 .portfolio-card-title {
@@ -188,7 +184,6 @@ body {
 }
 
 .portfolio-card-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
