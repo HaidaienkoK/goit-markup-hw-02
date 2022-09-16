@@ -35,6 +35,10 @@ body {
     color: #000000;
 }
 
+.logo-footer {
+    color: var(--secondery-color-text);
+}
+
 .logo-color {
     color: var(--main-focus);
 }
